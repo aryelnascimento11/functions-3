@@ -7,7 +7,7 @@ interface PropsNote {
 export default function Note(props: PropsNote) {
     return (
         <ul className="text-white divide-y border rounded-lg "> 
-           <li className="p-2">
+           <li className="p-2 justify-between flex">
           {props.title}
             <button className="text-white p-1">X</button> 
             </li>   
