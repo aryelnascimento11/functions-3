@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import Header from './components/header'
-import Banner from './components/banner'
+import Banana from './components/banner'
 
 export default function Home() {
   return (
     <>
     <title className='text-blue-500'>Bloco de Notas</title>
     <Header/>
-    <Banner/>
+    <Banana/>
   </>
     )
 }
